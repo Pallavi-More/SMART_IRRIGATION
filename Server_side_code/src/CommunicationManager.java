@@ -23,14 +23,7 @@ import com.mysql.jdbc.Connection;
 public class CommunicationManager  {
 public static String sData;
 private int portNo = 2233;
-/*private static String USER_NAME = "pallavimore114";  // GMail user name (just the part before "@gmail.com")
-private static String PASSWORD = "@pallavi118#"; // GMail password
-private static String RECIPIENT = "shubhangibhandarkumthe111@gmail.com";
 
-//	 public static String uname;
-	 public static void getData(String username){
-			uname=username;
-		}*/
 	    ServerSocket serverSocket = null;
 	    boolean serverStatus = true;
 	    public static String datatosend=null;
